@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reeh Flex | Enquiry</title>
+</head>
+<body>
+
+    <header>
+        <img src="images/logo.jpg" alt="Reeh Flex logo" width="120">
+        <h1>Reeh Flex</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Enquire About a Product</h2>
+        <p>Have a question about a product, want to check availability, or interested in becoming a sponsor? Fill out the form below and we'll get back to you.</p>
+
+        <form action="#" method="post">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+
+            <label for="enquiryType">Enquiry Type</label><br>
+            <select id="enquiryType" name="enquiryType">
+                <option value="product">Product Enquiry</option>
+                <option value="sponsor">Become a Sponsor</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Submit Enquiry</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Reeh Flex. All rights reserved.</p>
+        <p>Follow us: <a href="https://www.instagram.com/reehflexwearsa" target="_blank">Instagram</a> | TikTok | WhatsApp</p>
+    </footer>
+
+</body>
+</html>
