@@ -1,0 +1,49 @@
+/* Body styling */
+body {
+    background-color: #eef4ff;
+}
+
+/* Main heading (h1) styling */
+h1 {
+    color: #1d4ed8;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Paragraph 1 - styled using the p element selector */
+p {
+    color: blue;
+}
+
+/* Paragraph 2 - styled using a class selector */
+.highlight {
+    color: green;
+}
+
+/* Paragraph 3 - styled using an ID selector */
+#alert {
+    color: red;
+}
+
+/* Main content section */
+.main-content {
+    background-color: white;
+}
+
+.main-content h2 {
+    color: #1d4ed8;
+}
+
+/* Favourite movie card */
+.movie-card {
+    max-width: 320px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #b8c2cc;
+    background-color: white;
+}
+
+.movie-card p {
+    color: initial;
+}
